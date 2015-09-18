@@ -1,0 +1,14 @@
+**********PUPIL HACKER*******
+Inorder to start the program follow the below steps:
+1) Go to the folder Pupil_hacker_gui_files
+2) Start the Pupil_Hacker_Gui executable by double clicking on it.
+3) Enter the name, age, and gender and press on the start button.
+4) Two image windows will pop up.
+8) 8 stimuli will be shone through the eye, 4 on each eye, which will be visible in the video feed
+9) There is a time gap of 3 seconds between every stimulus and initially when starting a time of 10 seconds is given to allow for the patient's eye to settle.
+10) Once all the stimuli are done press escape key to exit the program.
+11) In the data folder radtime.csv, image of the graph, and video in the videos folder.
+12) U will need to create the videos folder so that the video files go in it.
+13) In case of some malfunciton in arduino the led_pupilhackersrc contains .ino file to be opened along with arduino IDE and re-uploaded.
+14) pupil.cpp is the Image Processing code. If threshold needs to be changed or region of interest needs to be changed, please change here.
+15) Bear in mind that additional libraries need to be installedif working on different laptop (Boost, OpenCV and libharu).
